@@ -1,0 +1,13 @@
+@import "./reset.scss";
+
+//eurolist
+.euroList {
+  &__list {
+    margin: 20px;
+    list-style: none;
+  }
+  &__button {
+    padding: 10px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,14 @@
+@import "./reset.scss";
+
+//App
+.main {
+  margin: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+
+  &__button {
+    padding: 40px;
+    cursor: pointer;
+  }
+}

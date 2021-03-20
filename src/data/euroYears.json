@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "year": "2020",
+    "champion": "?",
+    "silverMedal": "?",
+    "bestPlayer": "?",
+    "country": "?",
+    "url": "",
+    "hola": ""
+  },
+  {
+    "id": 2,
+    "year": "2016",
+    "champion": "Portugal",
+    "silverMedal": "Francia",
+    "bestPlayer": "Griezmann",
+    "country": "Francia",
+    "url": "",
+    "hola": ""
+  },
+  {
+    "id": 3,
+    "year": "2012",
+    "champion": "España",
+    "silverMedal": "Italia",
+    "bestPlayer": "Iniesta",
+    "country": "Ucrania",
+    "url": "https://www.timejust.es/politica/opinion-se-acabo-vuestra-espana/attachment/1-espana_400px/",
+    "hola": ""
+  },
+  {
+    "id": 4,
+    "year": "2008",
+    "champion": "España",
+    "silverMedal": "Alemania",
+    "bestPlayer": "Xavi Hernández",
+    "country": "Austria y Suiza",
+    "url": "",
+    "hola": ""
+  },
+  {
+    "id": 5,
+    "year": "2004",
+    "champion": "Grecia",
+    "silverMedal": "Portugal",
+    "bestPlayer": "Zagorakis",
+    "country": "Portugal",
+    "url": "",
+    "hola": ""
+  },
+  {
+    "id": 6,
+    "year": "2000",
+    "champion": "Francia",
+    "silverMedal": "Italia",
+    "bestPlayer": "Zidane",
+    "country": "Belgica y Paises Bajos",
+    "url": "",
+    "hola": ""
+  },
+  {
+    "id": 7,
+    "year": "1996",
+    "champion": "Alemania",
+    "silverMedal": "Republica Checa",
+    "bestPlayer": "-----",
+    "country": "Inglaterra",
+    "url": "",
+    "hola": ""
+  },
+  {
+    "id": 8,
+    "year": "1992",
+    "champion": "Dinamarca",
+    "silverMedal": "Alemania",
+    "bestPlayer": "-",
+    "country": "Suecia",
+    "url": "",
+    "hola": ""
+  },
+  {
+    "id": 9,
+    "year": "1988",
+    "champion": "Paises Bajos",
+    "silverMedal": "Unión Soviética",
+    "bestPlayer": "-",
+    "country": "Alemania Occdidental",
+    "url": "",
+    "hola": ""
+  },
+  {
+    "id": 10,
+    "year": "1984",
+    "champion": "Francia",
+    "silverMedal": "España",
+    "bestPlayer": "-",
+    "country": "Francia",
+    "url": ""
+  }
+]

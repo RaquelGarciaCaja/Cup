@@ -1,0 +1,21 @@
+@import "./reset.scss";
+
+.euroList {
+  &__title {
+    display: flex;
+    justify-content: center;
+    color: orange;
+  }
+  &__list {
+    padding: 10px;
+  }
+
+  &__containerYears {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  &__button {
+    padding: 100px;
+  }
+}
