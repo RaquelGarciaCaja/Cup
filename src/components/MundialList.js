@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../stylesheets/EuroList.scss";
+import "../stylesheets/MundialList.scss";
 import { Link } from "react-router-dom";
 // import Filters from "./Filters";
 import euroYears from "../data/euroYears";
@@ -19,9 +19,9 @@ const MundialList = (props) => {
 
   const euroYear = euroYears.map((year) => {
     return (
-      <li className="euroList__list" key={year.id}>
-        <Link className="euroList__button" to={`/Euro/${year.id}`}>
-          <button className="euroList__button">{year.year}</button>
+      <li className="mundialList__list" key={year.id}>
+        <Link className="mundialList__button" to={`/Euro/${year.id}`}>
+          <button className="mundialList__button">{year.year}</button>
         </Link>
       </li>
     );
@@ -29,17 +29,17 @@ const MundialList = (props) => {
 
   // const euroYear = props.euroYears.map((year) => {
   //   return (
-  //     <li className="euroList__list" key={year.id}>
-  //       <Link className="euroList__button" to={`/Euro/${year.id}`}>
-  //         <button className="euroList__button">{year.year}</button>
+  //     <li className="mundialList__list" key={year.id}>
+  //       <Link className="mundialList__button" to={`/Euro/${year.id}`}>
+  //         <button className="mundialList__button">{year.year}</button>
   //       </Link>
   //     </li>
   //   );
   // });
 
   return (
-    <section className="euroList">
-      <h1 className="euroList__title">EuroCopa</h1>
+    <section className="mundialList">
+      <h1 className="mundialList__title">Mundial</h1>
       {/* <form className="filter--name">
         <label className="name">Año:</label>
         <input
@@ -50,7 +50,7 @@ const MundialList = (props) => {
           onChange={handlerFilter}
         />
       </form>{" "} */}
-      <ul className="euroList__containerYears">{euroYear}</ul>
+      <ul className="mundialList__containerYears">{euroYear}</ul>
     </section>
   );
 };

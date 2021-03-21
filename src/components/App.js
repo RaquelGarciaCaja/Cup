@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import "../stylesheets/App.scss";
+
 import Header from "./Header";
 import Main from "./Main";
 import EuroList from "./EuroList";

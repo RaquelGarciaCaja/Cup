@@ -4,8 +4,8 @@ import "../stylesheets/Header.scss";
 const Header = () => {
   return (
     <section className="header">
-      ELIJE
-      <i className=" header__icon fas fa-futbol"></i>
+      <h1 className="header__title">Football</h1>
+      <i className="header__icon fas fa-futbol"></i>
     </section>
   );
 };

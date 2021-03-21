@@ -3,5 +3,29 @@
 .header {
   background-color: lightblue;
   padding: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__icon {
+    font-size: 30px;
+    margin-left: 50px;
+    animation-name: ball;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes ball {
+  0% {
+    transform: translate(12, 0);
+  }
+
+  50% {
+    transform: translate(15, 0);
+  }
+
+  100% {
+    transform: translate(18, 0);
+  }
 }

@@ -1,9 +1,10 @@
 @import "./reset.scss";
 
-.euroList {
-  background-image: url(../images/euro.jpg);
+.mundialList {
+  background-image: url(../images/mundial.jpg);
   background-size: cover;
   background-position: center;
+  height: 100vh;
   &__title {
     display: flex;
     justify-content: center;
