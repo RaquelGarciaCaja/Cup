@@ -1,15 +1,11 @@
 import React from "react";
 import "../stylesheets/Header.scss";
-import { Link } from "react-router-dom";
-import { Route, Switch } from "react-router-dom";
-import euroYears from "../data/euroYears";
-import Euro from "./Euro";
+import FilterYear from "./FilterYear";
 
-const Filter = () => {
+const Filter = (props) => {
   return (
     <section className="filter">
-      <h1>EuroCopa</h1>
-      <div>{euroYear}</div>
+      <FilterYear handlerFilter={props.handlerFilter} />
     </section>
   );
 };

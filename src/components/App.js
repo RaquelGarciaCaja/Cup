@@ -25,7 +25,11 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={Main} />
-        <Route path="/EuroList" component={EuroList} />
+
+        <Route path="/EuroList">
+          <EuroList />
+        </Route>
+
         <Route path="/Euro/:id" render={renderUserDetails} />
         <Route path="/Mundial" component={MundialList} />
       </Switch>

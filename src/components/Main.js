@@ -2,7 +2,8 @@ import React from "react";
 import "../stylesheets/Main.scss";
 import { Link } from "react-router-dom";
 
-const Main = () => {
+const Main = (props) => {
+  console.log(props);
   return (
     <main className="main">
       <Link to="/EuroList">
