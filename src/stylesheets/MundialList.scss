@@ -5,6 +5,7 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
+  padding-top: 60px;
 
   &__title {
     display: flex;
@@ -22,5 +23,6 @@
   }
   &__button {
     padding: 20px;
+    cursor: pointer;
   }
 }

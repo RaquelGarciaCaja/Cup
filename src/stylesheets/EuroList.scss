@@ -5,19 +5,17 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  padding-top: 40px;
+  padding-top: 60px;
 
-  &__container {
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  flex-direction: column;
 
   &__title {
     display: flex;
     justify-content: center;
     padding: 30px;
     color: orange;
-  text-transform: uppercase;
+    text-transform: uppercase;
   }
   &__list {
     padding: 10px;
@@ -27,10 +25,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    list-style:none;
+    list-style: none;
   }
   &__button {
     padding: 20px;
-    cursor:pointer;
+    cursor: pointer;
   }
 }

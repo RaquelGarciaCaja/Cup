@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/Euro.scss";
+import "../stylesheets/Mundial.scss";
 // import { Link } from "react-router-dom";
 
 const Mundial = (props) => {

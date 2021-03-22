@@ -2,14 +2,20 @@
 
 .mundial {
   &__container {
+    background-image: url(../images/mundial.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
   }
+
   &__info {
+    color: white;
   }
   &__title {
+    color: white;
   }
 }

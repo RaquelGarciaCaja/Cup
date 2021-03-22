@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "../stylesheets/MundialList.scss";
 import { Link } from "react-router-dom";
-// import Filters from "./Filters";
-import euroYears from "../data/euroYears";
+import mundialYears from "../data/mundialYears";
 
 const MundialList = (props) => {
   //states
@@ -17,10 +16,11 @@ const MundialList = (props) => {
   //   year.includes(filterYear);
   // });
 
-  const euroYear = euroYears.map((year) => {
+  const mundialYear = mundialYears.map((year) => {
+    console.log(year.year);
     return (
       <li className="mundialList__list" key={year.id}>
-        <Link className="mundialList__button" to={`/Euro/${year.id}`}>
+        <Link className="mundialList__buttonText" to={`/Mundial/${year.id}`}>
           <button className="mundialList__button">{year.year}</button>
         </Link>
       </li>
@@ -38,7 +38,7 @@ const MundialList = (props) => {
   // });
 
   return (
-    <section className="euroList__container">
+    <section className="mundialList">
       <h1 className="mundialList__title">Mundial</h1>
       {/* <form className="filter--name">
         <label className="name">Año:</label>
@@ -50,7 +50,7 @@ const MundialList = (props) => {
           onChange={handlerFilter}
         />
       </form>{" "} */}
-      <ul className="mundialList__containerYears">{euroYear}</ul>
+      <ul className="mundialList__containerYears">{mundialYear}</ul>
     </section>
   );
 };

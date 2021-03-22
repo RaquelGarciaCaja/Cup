@@ -38,7 +38,7 @@ const EuroList = (props) => {
   // });
 
   return (
-    <section className="euroList__container">
+    <section className="euroList">
       <h1 className="euroList__title">EuroCopa</h1>
       {/* <form className="filter--name">
         <label className="name">Año:</label>
