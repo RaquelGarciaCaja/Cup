@@ -39,15 +39,18 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={Main} />
-        {/* eurocopa */}
-        <Route path="/EuroList">
-          <EuroList />
-        </Route>
-        <Route path="/Euro/:id" render={renderEuroDetails} />
-
-        {/* mundial   */}
-        <Route path="/Mundial" component={MundialList} />
-        <Route path="/Mundial/:id" render={renderMundialDetails} />
+        <section className="euroList">
+          {/* eurocopa */}
+          <Route path="/EuroList">
+            <EuroList />
+          </Route>
+          <Route path="/Euro/:id" render={renderEuroDetails} />
+        </section>
+        <section className="mundialList">
+          {/* mundial   */}
+          <Route path="/Mundial" component={MundialList} />
+          <Route path="/Mundial/:id" render={renderMundialDetails} />
+        </section>
       </Switch>
     </div>
   );
