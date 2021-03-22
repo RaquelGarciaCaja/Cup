@@ -24,6 +24,7 @@ function App() {
   };
 
   const renderMundialDetails = (props) => {
+    console.log(props);
     const yearId = parseInt(props.match.params.id);
     const foundYearMundial = mundialYears.find((year) => {
       return year.id === yearId;
@@ -48,7 +49,11 @@ function App() {
         </section>
         <section className="mundialList">
           {/* mundial   */}
-          <Route path="/Mundial" component={MundialList} />
+
+          <Route path="/MundialList">
+            <MundialList />
+          </Route>
+
           <Route path="/Mundial/:id" render={renderMundialDetails} />
         </section>
       </Switch>

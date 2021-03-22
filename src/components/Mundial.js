@@ -4,7 +4,7 @@ import "../stylesheets/Euro.scss";
 
 const Mundial = (props) => {
   return (
-    <div className="mundialList mundial">
+    <div className="mundial__container">
       <h1 className="mundial__title">{props.year.year}</h1>
       <h4 className="mundial__info">Camapeón: {props.year.champion}</h4>
       <h4 className="mundial__info">Subcampeón: {props.year.silverMedal}</h4>

@@ -38,7 +38,7 @@ const MundialList = (props) => {
   // });
 
   return (
-    <section className="mundialList">
+    <section className="euroList__container">
       <h1 className="mundialList__title">Mundial</h1>
       {/* <form className="filter--name">
         <label className="name">Año:</label>

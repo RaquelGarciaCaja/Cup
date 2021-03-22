@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import euroYears from "../data/euroYears";
 
 const EuroList = (props) => {
-  console.log(props);
   //states
   const [filterYear, setFilterYear] = useState("");
 
