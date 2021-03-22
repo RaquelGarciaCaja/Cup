@@ -1,17 +1,16 @@
 @import "./reset.scss";
 
-//App
+
 .main {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
-  background-image: url(../images/campo.jpg);
-  background-position: center;
-  background-size: cover;
   height: 100vh;
+  top:40px;
   padding-top: 200px;
   &__button {
     padding: 40px;
+ font-size: 20px; 
     cursor: pointer;
     -webkit-box-shadow: 0px 0px 12px 3px #000000;
     box-shadow: 0px 0px 12px 3px #000000;

@@ -20,7 +20,7 @@ const EuroList = (props) => {
   const euroYear = euroYears.map((year) => {
     return (
       <li className="euroList__list" key={year.id}>
-        <Link className="euroList__button" to={`/Euro/${year.id}`}>
+        <Link to={`/Euro/${year.id}`}>
           <button className="euroList__button">{year.year}</button>
         </Link>
       </li>
