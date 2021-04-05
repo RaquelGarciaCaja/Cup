@@ -86,8 +86,7 @@
     "silverMedal": "Unión Soviética",
     "bestPlayer": "-",
     "country": "Alemania Occdidental",
-    "url": "",
-    "hola": ""
+    "url": ""
   },
   {
     "id": 10,
@@ -96,6 +95,24 @@
     "silverMedal": "España",
     "bestPlayer": "-",
     "country": "Francia",
+    "url": ""
+  },
+  {
+    "id": 11,
+    "year": "1980",
+    "champion": "__",
+    "silverMedal": "__",
+    "bestPlayer": "__",
+    "country": "__",
+    "url": ""
+  },
+  {
+    "id": 12,
+    "year": "1976",
+    "champion": "__",
+    "silverMedal": "__",
+    "bestPlayer": "-",
+    "country": "__",
     "url": ""
   }
 ]

@@ -4,8 +4,7 @@ import "../stylesheets/Header.scss";
 const FilterYear = (props) => {
   const handlerFilterYear = (ev) => {
     const inputValue = ev.target.value;
-    const inputName = ev.target.name;
-    props.handlerFilter({ value: inputValue, name: inputName });
+    props.handlerFilter(inputValue);
   };
 
   const handlerPreventDefault = (ev) => {
@@ -13,11 +12,11 @@ const FilterYear = (props) => {
   };
 
   return (
-    <form className="filter--name" onSubmit={handlerPreventDefault}>
+    <form className="filter__name" onSubmit={handlerPreventDefault}>
       <label className="name">Año:</label>
       <input
-        className="filter--name--input"
-        type="number"
+        className="filter__name--input"
+        type="text"
         placeholder="Ej: 1992"
         name="year"
         onChange={handlerFilterYear}

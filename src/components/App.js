@@ -9,13 +9,17 @@ import MundialList from "./MundialList";
 import Mundial from "./Mundial";
 import euroYears from "../data/euroYears";
 import mundialYears from "../data/mundialYears";
+import HeaderMundial from "./HeaderMundial";
 
 function App() {
   const renderEuroDetails = (props) => {
     const yearId = parseInt(props.match.params.id);
+    console.log(euroYears);
     const foundYearEuro = euroYears.find((year) => {
       return year.id === yearId;
     });
+
+    console.log(foundYearEuro);
 
     if (foundYearEuro !== undefined) {
       return <Euro year={foundYearEuro} />;
@@ -36,17 +40,18 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
       <Switch>
         {/* main */}
         <Route exact path="/" component={Main} />
         {/* euro */}
         <Route path="/EuroList">
+          <Header />
           <EuroList />
         </Route>
         <Route path="/Euro/:id" render={renderEuroDetails} />
         {/* mundial */}
         <Route path="/MundialList">
+          <HeaderMundial />
           <MundialList />
         </Route>
         <Route path="/Mundial/:id" render={renderMundialDetails} />

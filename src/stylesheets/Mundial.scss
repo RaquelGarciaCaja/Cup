@@ -1,11 +1,12 @@
 @import "./reset.scss";
 
 .mundial {
+  background-image: url(../images/mundial.jpg);
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
   &__container {
-    background-image: url(../images/mundial.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,5 +18,15 @@
   }
   &__title {
     color: white;
+  }
+  &__backBtn {
+    padding: 8px;
+    cursor: pointer;
+  }
+  &__containerBack {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 100px 100px;
   }
 }

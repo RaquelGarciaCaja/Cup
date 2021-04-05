@@ -17,7 +17,6 @@ const MundialList = (props) => {
   // });
 
   const mundialYear = mundialYears.map((year) => {
-    console.log(year.year);
     return (
       <li className="mundialList__list" key={year.id}>
         <Link className="mundialList__buttonText" to={`/Mundial/${year.id}`}>
@@ -39,7 +38,12 @@ const MundialList = (props) => {
 
   return (
     <section className="mundialList">
-      <h1 className="mundialList__title">Mundial</h1>
+      <div className="mundialList__containerTitle">
+        <Link to="/">
+          <button className="mundialList__backBtn">Volver</button>
+        </Link>
+        <h1 className="mundialList__title">Mundial</h1>
+      </div>
       {/* <form className="filter--name">
         <label className="name">Año:</label>
         <input

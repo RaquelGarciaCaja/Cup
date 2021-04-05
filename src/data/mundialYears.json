@@ -3,7 +3,7 @@
     "id": 1,
     "year": "2022",
     "champion": "?",
-    "siverMedal": "?",
+    "silverMedal": "?",
     "bestPlayer": "?",
     "country": "?"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "year": "2018",
     "champion": "Francia",
-    "siverMedal": "Croacia",
+    "silverMedal": "Croacia",
     "bestPlayer": "Modric´",
     "country": "Rusia"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "year": "2014",
     "champion": "Alemania",
-    "siverMedal": "Argentina",
+    "silverMedal": "Argentina",
     "bestPlayer": "Messi",
     "country": "Brasil"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "year": "2010",
     "champion": "España",
-    "siverMedal": "Paises Bajos",
+    "silverMedal": "Paises Bajos",
     "bestPlayer": "Forlán",
     "country": "Sudáfrica"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "year": "2006",
     "champion": "Italia",
-    "siverMedal": "Francia",
+    "silverMedal": "Francia",
     "bestPlayer": "Zidane",
     "country": "Alemania"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "year": "2002",
     "champion": "Brasil",
-    "siverMedal": "Alemnia",
+    "silverMedal": "Alemnia",
     "bestPlayer": "Ronaldo",
     "country": "Corea y Japón"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "year": "1998",
     "champion": "Francia",
-    "siverMedal": "Brasil",
+    "silverMedal": "Brasil",
     "bestPlayer": "Ronaldo",
     "country": "Francia"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "year": "1994",
     "champion": "Brasil",
-    "siverMedal": "Italia",
+    "silverMedal": "Italia",
     "bestPlayer": "Romario",
     "country": "EEUU"
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "year": "1990",
     "champion": "Alemania Federal",
-    "siverMedal": "Argentina",
+    "silverMedal": "Argentina",
     "bestPlayer": "Schillaci",
     "country": "Italia"
   },
@@ -75,8 +75,26 @@
     "id": 10,
     "year": "1986",
     "champion": "Argentina",
-    "siverMedal": "Alemania Federal",
+    "silverMedal": "Alemania Federal",
     "bestPlayer": "Maradona",
     "country": "México"
+  },
+  {
+    "id": 11,
+    "year": "1982",
+    "champion": "__",
+    "silverMedal": "__",
+    "bestPlayer": "__",
+    "country": "__",
+    "url": ""
+  },
+  {
+    "id": 12,
+    "year": "1978",
+    "champion": "__",
+    "silverMedal": "__",
+    "bestPlayer": "-",
+    "country": "__",
+    "url": ""
   }
 ]

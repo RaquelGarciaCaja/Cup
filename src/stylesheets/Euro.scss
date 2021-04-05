@@ -1,20 +1,25 @@
 @import "./reset.scss";
 
 .euro {
-  
-  &__container {
-    background-image: url(../images/euro.jpg);
+  background-image: url(../images/euro.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
-  display:flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
- 
+
   &__info {
   }
   &__title {
+  }
+  &__containerBack {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 100px 100px;
   }
 }

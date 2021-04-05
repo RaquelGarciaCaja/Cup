@@ -28,7 +28,19 @@
     list-style: none;
   }
   &__button {
-    padding: 20px;
+    padding: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 0px 12px 3px #000000;
+    box-shadow: 0px 0px 12px 3px #000000;
+  }
+  &__containerTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__backBtn {
+    padding: 8px;
     cursor: pointer;
   }
 }
