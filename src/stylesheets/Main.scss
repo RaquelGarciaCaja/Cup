@@ -1,16 +1,21 @@
 @import "./reset.scss";
 
-
 .main {
   display: flex;
-  justify-content: space-evenly;
-  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  top:40px;
-  padding-top: 200px;
+  &__title {
+    padding: 50px;
+  }
+  &__container {
+    display: flex;
+  }
   &__button {
+    margin: 80px;
     padding: 40px;
- font-size: 20px; 
+    font-size: 20px;
     cursor: pointer;
     -webkit-box-shadow: 0px 0px 12px 3px #000000;
     box-shadow: 0px 0px 12px 3px #000000;
