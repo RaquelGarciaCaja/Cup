@@ -12,10 +12,22 @@ const Mundial = (props) => {
       </div>
       <div className="mundial__container">
         <h1 className="mundial__title">{props.year.year}</h1>
-        <h4 className="mundial__info">Camapeón: {props.year.champion}</h4>
-        <h4 className="mundial__info">Subcampeón: {props.year.silverMedal}</h4>
-        <h4 className="mundial__info">Mejor jugador: {props.year.bestPlayer}</h4>
-        <h4 className="mundial__info">Pais donde se jugó: {props.year.country}</h4>
+        <div className="mundial__containerInfo">
+          <h4 className="mundial__info">Camapeón:</h4>{" "}
+          <p className="mundial__infoP mundial__info">{props.year.champion}</p>
+        </div>
+        <div className="mundial__containerInfo">
+          <h4 className="mundial__info">Subcampeón:</h4>
+          <p className="mundial__infoP mundial__info"> {props.year.silverMedal}</p>
+        </div>
+        <div className="mundial__containerInfo">
+          <h4 className="mundial__info">Mejor jugador:</h4>{" "}
+          <p className="mundial__infoP mundial__info">{props.year.bestPlayer}</p>
+        </div>
+        <div className="mundial__containerInfo">
+          <h4 className="mundial__info">Pais donde se jugó: </h4>{" "}
+          <p className="mundial__infoP mundial__info"> {props.year.country}</p>
+        </div>
       </div>
     </div>
   );

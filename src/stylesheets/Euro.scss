@@ -12,14 +12,17 @@
     align-items: center;
   }
 
-  &__info {
-  }
-  &__title {
+  &__infoP {
+    padding: 5px;
   }
   &__containerBack {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     padding: 100px 100px;
+  }
+  &__containerInfo {
+    display: flex;
+    align-items: center;
   }
 }

@@ -13,11 +13,12 @@
     align-items: center;
   }
 
-  &__info {
-    color: white;
-  }
+  &__info,
   &__title {
     color: white;
+  }
+  &__infoP {
+    padding: 5px;
   }
   &__backBtn {
     padding: 8px;
@@ -28,5 +29,9 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding: 100px 100px;
+  }
+  &__containerInfo {
+    display: flex;
+    align-items: center;
   }
 }
